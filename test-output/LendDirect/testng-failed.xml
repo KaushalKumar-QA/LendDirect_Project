@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LendDirect]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="InvestorPortal(failed)">
+    <classes>
+      <class name="com.InvestorPortal.tests.LoginTest">
+        <methods>
+          <include name="validateuserLoginByPreviousPassword"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="validateResetPasswordUsingChangePassword"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.InvestorPortal.tests.LoginTest -->
+    </classes>
+  </test> <!-- InvestorPortal(failed) -->
+</suite> <!-- Failed suite [LendDirect] -->

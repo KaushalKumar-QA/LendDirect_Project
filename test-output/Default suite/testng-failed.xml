@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.Funding.tests.NewFacilityTest">
+        <methods>
+          <include name="validateOnSavingRepaymentsDetailsIntoSystemAndConfirmation"/>
+          <include name="validateCashAmountAndAccountBalanceAfterAddingRepayments"/>
+          <include name="validatePopupByClickingOnNewDrawdownButton"/>
+          <include name="validateOptionsUnderRepaymentsSection"/>
+          <include name="visibilityOfFundingSubMenuOptions"/>
+          <include name="validatePreviousDrawdownsUpdate"/>
+          <include name="validateDeleteInRepayments"/>
+          <include name="tearDown"/>
+          <include name="validateCashAmountAndAccountBalanceAfterAddingDrawdowns"/>
+          <include name="validateConfirmRepaymentAndGreenTick"/>
+          <include name="validatePreviousRepaymentsUpdate"/>
+          <include name="validateCreateRepaymentAndUnconfirmedStatus"/>
+          <include name="validateDocumentsTabAndUploadSingleDocument"/>
+          <include name="getResult"/>
+          <include name="validateIfDrawdownAmountIsLessThenUndrawnAmount"/>
+          <include name="validateLoanFacilityStatus"/>
+          <include name="validateIfDrawdownIsGreaterThenUndrawnAmount"/>
+          <include name="visibilityOfNewFacilityPageHeader"/>
+          <include name="validateIfRepaymentAmountIsLessThenCashAmount"/>
+          <include name="validateAllDrawdownsSum"/>
+          <include name="validateDrawdownIfSkippedDate"/>
+          <include name="validatePopupByClickingOnNewRepaymentButton"/>
+          <include name="validateDeleteInDrawdowns"/>
+          <include name="validateAllRepaymentsSum"/>
+          <include name="visibilityOfInternalReferenceText"/>
+          <include name="validateOnSavingDrawdownsDetailsIntoSystem"/>
+          <include name="validateOptionsUnderDrawdownsSection"/>
+          <include name="visibilityOfMenusUnderNewFacilityPage"/>
+          <include name="validateIfRepaymentIsGreaterThenCashAmount"/>
+          <include name="visibilityOfFundingMenuFromSideMenuOptions"/>
+          <include name="validateCreateDrawdownsAndUnconfirmedStatus"/>
+          <include name="validateConfirmDrawdownAndGreenTick"/>
+          <include name="validateNewFacilityPageVisibility"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Funding.tests.NewFacilityTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
